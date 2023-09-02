@@ -1,0 +1,710 @@
+body {
+    padding-top: 151.95px;
+}
+
+.nav-link {
+    font-size: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #000000 !important;
+    font-weight: 600;
+    font-family: "Oswald";
+  
+}
+
+#btn-cadastro {
+    font-size: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #f1f1f1 !important;
+    font-weight: 500;
+    font-family: "Oswald";
+    margin-left: 20px;
+    border-radius: 0;
+}
+
+#texto-UI {
+    font-size: 116px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+}
+
+.texto-iniciante {
+    font-size: 38px;
+    letter-spacing: 4px;
+    color: #000000 !important;
+    font-weight: 400;
+    font-family: "Krub";
+}
+
+.objeto-hifen {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-left: 10px !important;
+    width: 65px;
+    height: 1px;
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important;
+}
+
+.texto-guia-inicial {
+    font-size: 21px;
+letter-spacing: 1px;
+line-height: 30px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+}
+
+.texto-grande-I {
+    width: 991px;
+height: 198px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 27px;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+text-align: left;
+}
+
+
+.botao-rosa {
+    width: 125px;
+    height: 47px;
+    background-color: #aa84f9;
+    position: relative;
+    margin-top: -130px;
+
+}
+.texto-botao-rosa {
+    font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #f1f1f1;
+font-weight: 700;
+font-family: "Oswald";
+}
+
+.texto-botao-transparente {
+    font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Oswald";
+}
+
+.botao-transparente {
+    width: 125px;
+    height: 47px;
+    background-color: transparent;
+    border: none; 
+    color: #aa84f9;
+    font-size: 16px;
+    position: relative;
+    margin-top: -130px;
+
+}
+
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    z-index: 1;
+    margin-right: 180px;
+}
+
+.overlay-image img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: -180px;
+}
+
+.retangulo-black {
+    width:auto;
+height: 180px;
+background-color: #000000;
+border: 1px solid #000000;
+
+}
+
+.texto-retangulo {
+    font-size: 22px;
+letter-spacing: 3px;
+color: #f1f1f1;
+font-weight: 400;
+font-family: "Krub";
+}
+
+.texto-retangulo-II {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-family: "Krub";
+}
+
+.ponto-retangulo {
+    width: 12px;
+height: 12px;
+background-color: #f1f1f1;
+display: inline-block;
+vertical-align: middle;
+margin-left: 10px;
+margin-top: 3px;
+display: inline-block;
+vertical-align: middle;
+margin-left: 5px;
+}
+
+.geral-retangulo-edicao {
+    font-size: 17px;
+letter-spacing: 3px;
+color: #f1f1f1;
+font-weight: 700;
+font-family: "Krub";
+
+}
+
+.borda-retangulo {
+    width: 145px;
+    height: 103px;
+    background-color: #ffffff;
+    border: 2px solid #f1f1f1;
+}
+
+#botao-retangulo {
+    cursor: default;
+    font-size: 25px;
+    padding: 5px 40px;
+    border-radius: 0;
+    font-size: 17px;
+letter-spacing: 3px;
+color: #f1f1f1;
+font-weight: 700;
+font-family: "Krub";
+text-transform: uppercase;
+background-color: transparent;
+    border-color: #fff;
+
+}
+
+#imagem-homem {
+    width: 100%;
+    margin-top: 100px;
+    max-width: 100%; 
+    height: auto;
+    
+}
+
+#cursos-esquerda,
+#cursos-direita {
+    margin-top: 100px;
+    margin-left: -40px;
+
+  transform: rotate(-90deg);
+  font-size: 13px;
+line-height: 23px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+
+}
+.image-overlay {
+    position: relative;
+    display: inline-block;
+}
+.overlay-text {
+    position: absolute;
+    font-size: 24px;
+   
+    font-weight: bold;
+    opacity: 0.8;
+    top: 50%;
+    transform: translateY(-50%);
+ 
+
+}
+
+.left-text {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Krub";
+
+}
+
+.right-text {
+    right: 20px;
+    position: absolute;
+    font-size: 37px;
+    letter-spacing: 4px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Krub";
+}
+
+
+.retangulo-white {
+    width: auto;
+    height: 220px;
+    background-color: #fff;
+
+}
+
+#texto-cursos-ui{
+    font-size: 38px;
+letter-spacing: 4px;
+color: #000000;
+font-weight: 400;
+font-family: "Krub";
+
+}
+
+#botao-retangulo-ui {
+    font-size: 16px !important ; 
+line-height: 23px !important ;
+text-transform: uppercase !important;
+color: #000000 !important;
+font-weight: 700  !important;
+font-family: "Krub" !important;
+}
+
+.texto-retangulo-b {
+    font-size: 22px;
+letter-spacing: 3px;
+color: #000000;
+font-weight: 400;
+font-family: "Krub";
+}
+
+.imagem-ui {
+    width: 75%;
+}
+
+#texto-level {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Krub";
+    margin-top: 10px !important;
+}
+
+#card-id {
+    width: 291px;
+height: 375px;
+border-radius: 47px;
+filter: drop-shadow(0 0 29.5px rgba(0,0,0,0.23));
+background-color: #f1f1f1;
+border: 3px solid #ffffff;
+}
+
+
+.objeto-card {
+    width: 55px;
+    height: 3px;
+    background-color: #161211;
+    border: 1px solid #000000;
+margin-left: 70px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.card-text {
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 27px;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+text-align: center;
+}
+
+#botao-card {
+width: 125px;
+height: 47px;
+background-color: #aa84f9;
+font-weight: 700;
+font-family: "Oswald";
+margin-left: 35px;
+
+text-transform: uppercase;
+color: #f1f1f1;
+border-style: hidden;
+font-size: 18px;
+}
+
+.homem-principal {
+    max-width: 100%;
+}
+
+
+.menu-inferior {
+    margin: 0 auto; 
+    width: 400px;
+}
+
+.texto-retangulo-c {
+    font-size: 22px;
+letter-spacing: 3px;
+color: #000000;
+font-weight: 400;
+font-family: "Krub";
+}
+
+.texto-pense {
+    font-size: 22px;
+letter-spacing: 4px;
+color: #000000;
+font-weight: 400;
+font-family: "Krub";
+display: inline;
+}
+
+.imagem-ui-dois {
+    width: 25%;
+}
+
+
+.imagem-review {
+    border-radius: 100%;
+    width: 30%;
+     filter: grayscale(100%);
+}
+
+.nome-review {
+    font-size: 19px;
+line-height: 27px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+}
+
+.texto-review {
+
+letter-spacing: 0px;
+margin-right: -1000px;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+
+
+}
+
+.data-review {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #939393;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.estrelinhas-review {
+    font-size: 30px;}
+
+.estrela-pintada {
+    opacity: 0.600;
+    color: #3c00ff; 
+}
+
+.retangulo-slogan {
+    position: relative;
+    padding: 5px;
+}
+
+.frase-slogan {
+    position: absolute;
+    top: 25%;
+    left: 3%; 
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Krub";
+    font-size: 300%
+}
+
+.frase-slogan-dois {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    font-size: 34px;
+text-transform: uppercase;
+color: #f1f1f1;
+font-weight: 300;
+font-family: "Krub";
+font-size: 250%
+}
+#button-slogan {
+    background-color: #000000;
+    border-radius: 0;
+    border-color: transparent;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+.container-xl {
+    min-width: 1140px; 
+  }
+
+  @media (max-width: 768px) { 
+    .frase-slogan {
+      font-size: 170%; 
+    }
+
+    .frase-slogan-dois {
+      font-size: 140%; 
+    }
+  }
+
+.inscricao-contato {
+    font-size: 47px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+}
+
+#inscricao-contato-dois {
+    font-size: 26px;
+letter-spacing: 5px;
+color: #000000;
+font-weight: 400;
+font-family: "Krub";
+}
+
+#nome, #email, #mensagem {
+    width: 410px;
+    color: rgb(0, 0, 0);
+    border: 1.5px solid black; 
+    border-radius: 0;
+}
+
+#nome::placeholder, #email::placeholder, #mensagem::placeholder {
+   
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Krub";
+  }
+
+.btn.btn-dark {
+    border-radius: 0;
+    font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #f1f1f1;
+font-weight: 700;
+font-family: "Oswald";
+margin-left: 150px;
+}
+
+.about-highlight {
+    font-size: 23px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Krub";
+  }
+  
+  .custom-footer {
+    padding: 70px;
+    background-color: #000000;
+  }
+  
+  .estilo-p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Krub";
+    margin-bottom: 10px;
+  }
+  
+.seguir-footer {
+    margin-right: 80px;
+    font-size: 15px;
+line-height: 33px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Krub";
+text-align: right;
+}
+
+#fb-footer{
+    margin-right: 100px !important;
+}
+
+#tt-footer{
+    margin-right: 100px !important;
+}
+
+#texto-cursos-ui-dois{
+    font-size: 38px;
+    letter-spacing: 4px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Krub";
+margin-top:70px;
+margin-left: 27px;
+
+}
+
+.como-funciona {
+    width: 1092px;
+height: 198px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 27px;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+text-align: left;
+}
+
+#texto-lorem-final {
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Krub";
+}
+
+.ret-preto {
+    width: 12px;
+height: 12px;
+background-color: #000000;
+margin-top: 7px;
+
+margin-right: 20px;
+}
+
+#botao-card-ret {
+    
+    border-color: transparent;
+    background-color: #aa84f9;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Oswald";
+    border-radius: 0%;
+    margin-top: 40px;
+}
+
+.porque-edit {
+    font-size: 66px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+}
+
+.texto-sobre {
+
+height: 352px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 37px;
+color: #000000;
+font-weight: 600;
+font-family: "Krub";
+text-align: left;
+}
+
+.custom-mt-6 {
+    margin-top: 12rem !important; 
+}
+
+#botao-card-sobre {
+    border-color: transparent;
+    background-color: #aa84f9;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Oswald";
+    border-radius: 0%;
+margin-top: -400px;
+}
+
+#retangulo-white-ff {
+    width: auto;
+    height: 120px;
+    background-color: #fff;
+
+}
+
+#texto-que {
+    font-size: 86px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Krub";
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #redes-footer a:hover {
+    animation: blink 1s infinite !important; 
+  }
+
+  .form-control-dois {
+    border-radius: 0px !important; 
+   background-color: #000000 !important;
+   color: #f1f1f1;
+
+  }
+
+  #subscribe-button{
+    background-color: black;
+    border-color: white;
+    border-radius: 0; 
+  }
+  
+ 
+  #subscribe-button{
+    color: white
+  }
+  
+.logo-tam {
+    max-height: 50px; 
+    width: auto;
+}

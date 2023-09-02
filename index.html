@@ -1,0 +1,493 @@
+<!doctype html>
+ <!-- Configurações iniciais -->
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bolsa FlexPeak</title>
+    <!-- Arquivo Javascript-->
+    <script src="script.js"></script>
+    <!--Arquivo CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importação das Fontes necessárias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+      <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Importação do Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Favicon do site-->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+    <!-- Barra de Navegação -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+          <div class="container">
+            <!-- Logotipo da página -->
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-tam" src="images/0-logo.png" alt="Logo UI do site">
+            </a>
+               <!-- Botão para abrir menu em dispositivos móveis -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir navegação">
+                <span class="navbar-toggler-icon"></span></button>
+                  <!-- Itens do menu -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Links para outras seções do site -->
+                          <li class="nav-item me-5">
+                            <a class="nav-link" href="index.html">Início</a>
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link" href="#">Sobre</a>
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link" href="#">Cursos</a>
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item me-5">
+                            <a id="btn-cadastro" class="btn btn-dark" href="#">Cadastre-se</a>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <!-- Primeira Seção -->
+        <section>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                        <!-- Texto e conteúdo inicial -->
+                      <p id="texto-UI">UI.<span class="texto-iniciante">INICIANTE<strong>′s</strong></span></p>
+                      <div class="objeto-hifen"></div>
+                      <h1 class="texto-guia-inicial py-2">Guia inicial para Designers Iniciantes</h1>
+                      <p class="texto-grande-I py-3">Navegue pelos templates do projeto criado por Carlos Dantas. <br> Um entusiasta da programação em busca de aprendizado<br> constante e inovação. Explore conosco!</p>
+                      <!-- Botões -->
+                      <div class="botoes-container d-flex justify-content-between py-5">
+                          <button class="botao-rosa"><span class="texto-botao-rosa">Vamos começar</span></button>
+                          <button class="botao-transparente"><span class="texto-botao-transparente">Ler mais</span></button>
+                      </div>
+                  </div>
+                 <!-- Carrossel de imagens -->
+                  <div class="col-md-8 d-flex flex-column justify-content-end">
+                      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <img src="images/1-header.png" class="d-block w-100" alt="Foto de um homem usando óculos">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="images/1-header.png" class="d-block w-100" alt="Foto de um homem usando óculos">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+<!-- SEGUNDA SEÇÃO -->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="retangulo-black p-5">
+                <!-- Início da seção de retângulo preto após o header -->
+                <div class="d-flex align-items-center">
+                    <div class="geral-retangulo py-4">
+                         <!-- Início do retângulo geral -->
+                        <span class="texto-retangulo text-center">Entre para a <span class="texto-retangulo-II">comunidade</span><div class="ponto-retangulo"></div></span>
+                         <!-- Texto e elementos dentro do retângulo -->
+                      </div>
+                    <div class="geral-retangulo-edicao text-end ms-auto">
+                           <!-- Botão 'falso' "Edição 2023" -->
+                        <button id="botao-retangulo" type="button" class="btn btn-outline-light">Edição <br>2023</button>
+                    </div>
+                  </div>
+                   <!-- Fim do retângulo geral -->
+            </div>
+             <!-- Fim da seção de retângulo preto -->
+        </div>
+      </div>
+<!-- FIM DA SEGUNDA SEÇÃO -->
+
+<!-- TERCEIRA SEÇÃO -->
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div id="imagem-container" class="col-md-12 text-center">
+         <!-- Container da imagem centralizada -->
+        <div class="image-overlay d-flex align-items-center">
+            <!-- Textos sobrepostos na imagem -->
+          <img id="imagem-homem" src="images/2-center" alt="" class="base-image">
+          <div class="overlay-text left-text">Explore<strong>.</strong> </div>
+          <div class="overlay-text right-text">Sobre</div>
+          <div id="cursos-esquerda" class="overlay-text left-text">Cursos online</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FIM DA TERCEIRA SEÇÃO -->
+
+<!-- QUARTA SEÇÃO -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="retangulo-white">
+          <!-- Início do retângulo branco -->
+        <div class="d-flex align-items-center">
+          <div class="geral-retangulo py-4">
+              <!-- Início do segndo retângulo geral -->
+            <span class="d-flex align-items-center">
+              <img class="imagem-ui" src="images/0-logo.png" alt="">
+              <span id="texto-cursos-ui" class="mx-2 mt-5">Cursos</span>
+            </span>
+          </div>
+          <div class="geral-retangulo-edicao text-end ms-auto">
+               <!-- Botão "Comece a aprender" -->
+            <button id="botao-retangulo-ui" type="button" class="btn btn-outline-light">Comece a <br>aprender</button>
+          </div>
+        </div>
+             <!-- Fim do retângulo geral -->
+      </div>
+            <!-- Fim do retângulo branco -->
+    </div>
+  </div>
+</div>
+</section>
+<!-- FIM DA QUARTA SEÇÃO -->
+
+<!-- QUINTA SEÇÃO -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="card-id" class="card" style="width: 15rem;">
+          <!-- Cartão com id "card-id" e largura definida -->
+          <div class="card-body">
+            <h5 id="texto-level" class="card-title text-center"><strong class="texto-level" >Iniciante</strong> <span class="texto-level" >.01</span> </h5>
+             <!-- Título do cartão -->
+            <div class="objeto-card"></div>
+              <!-- Elemento "objeto-card" -->
+            <p class="card-text">Explore os conceitos da programação web neste nível introdutório. Prepare-se para mergulhar no mundo da criação digital.</p>
+              <!-- Texto descritivo do cartão -->
+            <a id="botao-card" href="#" class="btn btn-primary">Saiba mais</a>
+              <!-- Botão 'fake' "Saiba mais" -->
+          </div>
+        </div>
+      </div>
+       <!-- Outros dois cards intermediário e avançado -->
+        <div class="col-md-4">
+          <div id="card-id" class="card" style="width: 15rem;">
+            <div class="card-body">
+              <h5 id="texto-level" class="card-title text-center"><strong class="texto-level">Intermediário</strong> <span class="texto-level" >.02</span> </h5>
+              <div class="objeto-card"></div>
+              <p class="card-text">Eleve seu conhecimento em programação web para o próximo nível. Domine técnicas avançadas e crie projetos incríveis.</p>
+              <a id="botao-card" href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="card-id" class="card" style="width: 15rem;">
+            <div class="card-body">
+              <h5 id="texto-level" class="card-title text-center"><strong class="texto-level">Avançado</strong> <span class="texto-level" >.03</span> </h5>
+              <div class="objeto-card"></div>
+              <p class="card-text">Avance para o nível mais alto da programação web. Desafie-se com projetos complexos e torne-se um mestre da criação online.</p>
+              <a id="botao-card" href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+  </div>
+</section>
+
+<!--Nona SEÇÃO-->
+<section>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img class="logo_ui" src="images/0-logo.png" alt="">
+          <div id="texto-cursos-ui-dois" class="ml-3">
+            <h2>Como funciona</h2>
+          </div>
+        </div>
+        <p class="como-funciona py-5">Desde o primeiro dia da minha jornada na programação web, <br> tenho trabalhado incansavelmente para aprimorar minhas habilidades.</p>
+        <div class="d-flex">
+          <div class="ret-preto"></div><p id="texto-lorem-final" class="flex-grow-1">Comprometimento</p>
+          <div class="ret-preto"></div><p id="texto-lorem-final" class="flex-grow-1">Determinação</p>
+        </div>
+         <div class="d-flex py-4">
+          <div class="ret-preto"></div><p id="texto-lorem-final" class="flex-grow-1">Sucesso e inovação</p>
+          <div class="ret-preto"></div><p id="texto-lorem-final" class="flex-grow-1">Oportunidade</p>
+        </div>
+        <a id="botao-card-ret" href="#" class="btn btn-primary">Saiba mais</a>
+      </div>
+
+      <div class="col-md-6">
+        <img src="images/3-direita-background.png" alt="" class="img-fluid mx-auto">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEXTA SEÇÃO -->
+<section>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+          <!-- Imagem de fundo à esquerda -->
+        <img src="images/4-esquerda-background.png" alt="" class="img-fluid mx-auto">
+      </div>
+
+      <div class="col-md-6 custom-mt-6 d-flex align-items-center justify-content-center">
+        <div id="texto-cursos-ui-dois">
+          <h2 class="porque-edit">Sobre nós</h2>
+           <!-- Título "Sobre nós" -->
+          <p class="texto-sobre">Sou Carlos, um entusiasta da programação web. <br>Essa bolsa representa a oportunidade de aprimorar minhas habilidades e contribuir para a comunidade de desenvolvimento web. Junte-se a mim nesta jornada!</p>
+            <!-- Texto descritivo-->
+          <a id="botao-card-sobre" href="#" class="btn btn-primary">Saiba mais</a>
+            <!-- Botão "Saiba mais" -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FIM DA SEXTA SEÇÃO -->
+
+<!-- SÉTIMA SEÇÃO - Banner -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+            <!-- Retângulo slogan -->
+        <div class="retangulo-slogan">
+          <div class="d-flex align-items-center flex-column-reverse">
+              <!-- Imagem de fundo -->
+            <img src="images/5-banner.png" alt="">
+            <div class="container-xl">
+              <p class="frase-slogan">Registre-se agora</p>
+              <p class="frase-slogan-dois">e aproveite os descontos <strong>.</strong> </p>
+             <!-- Frases do slogan -->
+              <button id="button-slogan" type="button" class="btn btn-secondary">Cadastrar</button>
+           <!-- Botão "Cadastrar" -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIM DA SÉTIMA SEÇÃO - Slogan -->
+
+<!-- OITAVA SEÇÃO -->
+<section>
+ 
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="retangulo-white-ff" class="retangulo-white ps-5">
+                <!-- Retângulo branco -->
+                <div class="d-flex align-items-center">
+                    <div class="geral-retangulo py-4">
+                        <p id="texto-que" style="display: inline;">UI.</p>
+                         <!-- Texto "UI." -->
+                        <span class="texto-pense">O que pensam.</span>  
+                          <!-- Texto "O que pensam." -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FIM DA OITAVA SEÇÃO -->
+
+<!-- NONA SEÇÃO - Reviews -->
+</section>
+
+<div class="container">
+  <div class="row">
+    <!-- Primeira review - Primeira coluna -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <img class="imagem-review" src="images/6-comentario.png" alt="">
+      <div class="ml-3">
+        <img class="aspas aspas-superior py-2" src="images/6.1-aspas.png" alt="Aspas">
+        <p class="nome-review px-2">Laura Smith <span class="data-review px-2">20 de Fevereiro</span></p>
+        <p class="texto-review px-2">Adorei o curso! As lições foram fáceis <br>de entender, e a prática tornou a <br>  programação mais divertida. <br> Obrigada por esta oportunidade!</p>
+        <div class="estrelinhas-review px-2">
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela">&#9733;</span>
+        </div>
+        <img class="aspas aspas-inferior" src="images/6.2-aspas.png" alt="Aspas">
+      </div>
+    </div>
+    
+    <!-- Segunda review - Primeira coluna -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <img class="imagem-review" src="images/7-comentario.png" alt="">
+      <!-- Imagem da review -->
+      <div class="ml-3">
+        <img class="aspas aspas-superior py-2" src="images/6.1-aspas.png" alt="Aspas">
+        <!-- Aspas superiores -->
+        <p class="nome-review px-2">Pedro Alves <span class="data-review px-2">23 dias atrás</span></p>
+        <!-- Nome e data da review -->
+        <p class="texto-review px-2">O curso superou minhas expectativas! <br> Aprendi muito mais do que imaginava<br> e agora  me sinto confiante como <br> desenvolvedor web. Recomendo a todos!</p>
+        <!-- Texto da review -->
+        <div class="estrelinhas-review px-2">
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela">&#9733;</span>
+           <!-- Estrelas da avaliação -->
+        </div>
+        <img class="aspas aspas-inferior" src="images/6.2-aspas.png" alt="Aspas">
+         <!-- Aspas inferiores -->
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Terceira review - Segunda coluna -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <img class="imagem-review" src="images/8-comentario.png" alt="">
+      <div class="ml-3">
+        <img class="aspas aspas-superior py-2" src="images/6.1-aspas.png" alt="Aspas">
+        <p class="nome-review px-2">João Machado<span class="data-review px-2">17 dias atrás</span></p>
+        <p class="texto-review px-2">Este curso mudou minha vida! <br>Agora sou capaz  de criar sites <br> e estou pronto para enfrentar <br>desafios da programação.<br> Obrigado!</p>
+        <div class="estrelinhas-review px-2">
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela">&#9733;</span>
+        </div>
+        <img class="aspas aspas-inferior" src="images/6.2-aspas.png" alt="Aspas">
+      </div>
+    </div>
+    
+    <!-- Quarta review - Segunda coluna -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <img class="imagem-review" src="images/9-comentario.png" alt="">
+      <div class="ml-3">
+        <img class="aspas aspas-superior py-2" src="images/6.1-aspas.png" alt="Aspas">
+        <p class="nome-review px-2">Laura Valentim<span class="data-review px-2">12 semanas atrás</span></p>
+        <p class="texto-review px-2">Uma experiência incrível! Aprendi muito e<br> expandi minhas habilidades de programação.<br> Recomendo a todos os desenvolvedores!</p>
+        <div class="estrelinhas-review px-2">
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela-pintada">&#9733;</span>
+          <span class="estrela">&#9733;</span>
+        </div>
+        <img class="aspas aspas-inferior" src="images/6.2-aspas.png" alt="Aspas">
+      </div>
+    </div>
+  </div>
+</div>
+<!--Formulario Contato-->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/10-contato.png" alt="" class="img-fluid ml-2">
+          <!-- Imagem à esquerda -->
+      </div>
+      <div class="col-md-6 mt-5 pt-5">
+         <!-- Título e descrição do formulário de inscrição -->
+        <div>
+          <h3 class="inscricao-contato">Inscreva-se</h3>
+          <p id="inscricao-contato-dois" class="mb-3">na nossa newsletter</p>
+          <p class="texto-adicional">Receba as últimas novidades e atualizações!</p>
+        </div>
+        <div class="mt-5"> 
+          <!-- Formulário de contato -->
+          <form action="/enviar-contato" method="POST">
+            <div class="mb-3">
+              <!-- Campo de entrada para o nome -->
+              <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+            </div>
+            <div class="mb-3">
+              <!-- Campo de entrada para o email -->
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <!-- Campo de entrada para a mensagem -->
+              <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Mensagem" required></textarea>
+            </div>
+            <!-- Botão de envio do formulário -->
+            <button type="submit" class="btn btn-dark">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Fimd do Formulário-->
+
+<!-- Rodapé -->
+<footer class="custom-footer text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-md-start">
+        <div class="row">
+          <div class="col-md-6">
+             <!-- Sobre -->
+            <p class="about-highlight">Sobre</p>
+            <p class="estilo-p">História</p>
+            <p class="estilo-p">Nosso Time</p>
+            <p class="estilo-p">Missão</p>
+            <p class="estilo-p">Termos</p>
+            <p class="estilo-p">Política de Privacidade</p>
+          </div>
+            <!-- Restante do conteúdo anterior que está ao lado-->
+          <div class="col-md-6">
+            <p class="about-highlight">O que fazemos</p>
+            <p class="estilo-p">Notícias e Histórias</p>
+            <p class="estilo-p">Publicações</p>
+            <p class="estilo-p">Ação</p>
+            <p class="estilo-p">Recomendações</p>
+            <p class="estilo-p">Ajuda</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <h5>Inscreva-se para Receber</h5>
+        <p>Nossa Newsletter</p>
+        <div class="d-flex justify-content-end mb-3">
+           <!-- Campo de entrada para o email no rodapé -->
+          <input type="email" class="form-control-dois" placeholder="Digite seu e-mail" aria-label="Email" aria-describedby="subscribe-button">
+            <!-- Botão de inscrição na newsletter -->
+          <button class="btn btn-primary" type="button" id="subscribe-button">Inscrever</button>
+        </div>
+        <div id="redes-footer" class="d-flex align-items-center justify-content-end mt-3">
+             <!-- Links para redes sociais -->
+          <a id="fb-footer" href="#" class="text-white me-5">
+            <i class="fab fa-facebook-f fa-lg"></i>
+          </a>
+          <a id="tt-footer" href="#" class="text-white me-5">
+            <i class="fab fa-youtube fa-lg"></i>
+          </a>
+          <a id="ig-footer" href="#" class="text-white">
+            <i class="fab fa-instagram-square fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Fim do Footer-->
+
+
+<!-- Inclusão do Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
